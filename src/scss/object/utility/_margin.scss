@@ -1,0 +1,38 @@
+/* ========================================
+  Margin
+======================================== */
+// Margin Top マージントップ 0 ~ 300
+// ex) Class Name: u-mt10, u-mt15, u-mt20
+// --------------------------------------------------
+@for $i from 0 through 60 {
+  .u-mt#{$i * 5} {
+    margin-top: #{$i * 5}px !important;
+  }
+}
+
+// Margin Bottom  マージンボトム 0 ~ 300
+// ex) Class Name: u-mb10, u-mb15, u-mb20
+// --------------------------------------------------
+@for $i from 0 through 60 {
+  .u-mb#{$i * 5} {
+    margin-bottom: #{$i * 5}px !important;
+  }
+}
+
+// Margin Left  マージンレフト 0 ~ 300
+// ex) Class Name: u-ml10, u-ml15, u-ml20
+// --------------------------------------------------
+@for $i from 0 through 60 {
+  .u-ml#{$i * 5} {
+    margin-left: #{$i * 5}px !important;
+  }
+}
+
+// Margin Right  マージンライト 0 ~ 300
+// ex) Class Name: u-ml10, u-ml15, u-ml20
+// --------------------------------------------------
+@for $i from 0 through 60 {
+  .u-mr#{$i * 5} {
+    margin-right: #{$i * 5}px !important;
+  }
+}

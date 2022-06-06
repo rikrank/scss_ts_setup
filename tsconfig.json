@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      // TSはECMAScript 5に変換
+      "target": "ES5",
+      // TSのモジュールはES Modulesとして出力
+      "module": "ES2015",
+      // JSXの書式を有効に設定
+      // 厳密化な型チェック
+      // "strict": true,
+      // Lintオプションの追加
+      // "noUnusedLocals": true,
+      // "noUnusedParameters": true,
+      // "noImplicitReturns": true,
+      // "noFallthroughCasesInSwitch": true,
+      // "noUncheckedIndexedAccess": true,
+      // "noImplicitOverride": true,
+      // "noPropertyAccessFromIndexSignature": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "lib": ["ES2020", "DOM"]
+    }
+  }

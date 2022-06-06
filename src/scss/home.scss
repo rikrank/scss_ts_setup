@@ -1,0 +1,15 @@
+@use "foundation" as *;
+
+body {
+  color: red;
+  background-color: teal;
+  font-size: vw(12px, 375px);
+
+  @include mq(md) {
+    background-color: teal;
+  }
+
+  @include mq(lg) {
+    background-color: teal;
+  }
+}

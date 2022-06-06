@@ -1,0 +1,31 @@
+@use "../../foundation/variable/breakpoints" as *;
+@use "../../foundation/mixin/mq" as *;
+
+/* ========================================
+  display
+======================================== */
+
+.u-display-sp {
+  display: block;
+  @include mq(md) {
+    display: none;
+  }
+}
+
+.u-display-tab {
+  display: none;
+
+  @include mq(md) {
+    display: block;
+  }
+  @include mq(lg) {
+    display: none;
+  }
+}
+
+.u-display-pc {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}

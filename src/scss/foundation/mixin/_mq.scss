@@ -1,0 +1,7 @@
+@use "../variable/breakpoints" as *;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
